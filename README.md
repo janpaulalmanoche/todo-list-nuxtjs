@@ -13,5 +13,5 @@ Installation after cloning
 ## run project
 - npm run dev
 
-## you can access your laravel app through this url
+## you can access your nuxt app through this url
 http://localhost:3000/
