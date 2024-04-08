@@ -232,6 +232,9 @@ export default {
       });
     },
     createTask() {
+    if(this.taskField == ""){
+      return
+    }
       const repository = new TaskRepository(this.$apollo);
       repository.createTask(this.taskField).then((result) => {
         this.text = 'Task created successfully';
